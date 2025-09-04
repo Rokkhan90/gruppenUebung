@@ -1,1 +1,16 @@
+
+# .gitignore für C# / Visual Studio
+
+# User-spezifische Dateien
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
 .vs/
+
+# Build-Ergebnisse
+[Bb]in/
+[Oo]bj/
+
+# Rider
+.idea/
