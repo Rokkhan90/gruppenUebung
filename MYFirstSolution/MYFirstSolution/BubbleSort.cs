@@ -22,7 +22,7 @@ public class BubbleSort
             // Die innere Schleife durchläuft das Array
             for (int j = 0; j < n - 1; j++)
             {
-                if (arr[j] > arr[j + 1])
+                if (arr[j] < arr[j + 1])
                 {
                     int temp = arr[j];
                     arr[j] = arr[j + 1];
