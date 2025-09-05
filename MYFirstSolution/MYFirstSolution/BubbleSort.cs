@@ -20,7 +20,7 @@ public class BubbleSort
         int n = arr.Length;
         for (int i = 0; i < n - 1; i++)
         {
-            // Die innere Schleife vergleicht benachbarte
+            // Die innere Schleife für den Sortiervorgang
             for (int j = 0; j < n - 1 - i; j++)
             {
                 if (arr[j] > arr[j + 1])
