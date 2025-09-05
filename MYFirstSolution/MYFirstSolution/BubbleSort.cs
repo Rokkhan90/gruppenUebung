@@ -35,6 +35,9 @@ public class BubbleSort
 
     public static void DruckeArray(int[] arr)
     {
+        Console.BackgroundColor = ConsoleColor.Yellow;
+        Console.ForegroundColor = ConsoleColor.Black;
         Console.WriteLine(string.Join(", ", arr));
+        Console.ResetColor();
     }
 }
