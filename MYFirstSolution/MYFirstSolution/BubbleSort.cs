@@ -5,6 +5,7 @@ public class BubbleSort
     public static void Main(string[] args)
     {
         int[] zahlen = { 13, 5, 4, 50, 33 };
+
         Console.WriteLine("Unsortierte Zahlen:");
         DruckeArray(zahlen);
 
